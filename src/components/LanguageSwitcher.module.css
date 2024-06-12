@@ -1,0 +1,26 @@
+.languageButton {
+    background: linear-gradient(90deg, rgba(255,105,180,1) 0%, rgba(255,69,0,1) 100%);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.5s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.languageButton:hover {
+    background: linear-gradient(90deg, rgba(255,69,0,1) 0%, rgba(255,105,180,1) 100%);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+.languageButton:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
